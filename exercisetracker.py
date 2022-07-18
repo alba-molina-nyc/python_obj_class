@@ -15,10 +15,10 @@ class ExerciseSession:
    
     def get_exercise(self):
         exercise_name = self.exercise_name
-        return exercise_name
         
-
+        return exercise_name
     
+  
     def get_intensity(self):
         intensity = self.intensity 
         return intensity
@@ -27,6 +27,20 @@ class ExerciseSession:
     def get_duration(self):
         duration = self.get_duration  
         return duration
+    
+    
+    def set_exercise(self, new_exercise_name):
+       print("EXERCISE changed from", self.exercise_name, "to", new_exercise_name, 'line59')
+       self.exercise_name = new_exercise_name
+        
+    def set_intensity(self, new_intensity):
+       print("INTENSITY changed from", self.intensity, "to",  new_intensity, 'line63')
+       self.intensity =  new_intensity
+        
+           
+    def set_duration(self, new_duration):
+       print("DURATION changed from", self.duration, "to", new_duration, 'line59')
+       self.duration = new_duration
         
 
 
