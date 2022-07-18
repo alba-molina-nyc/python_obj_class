@@ -5,3 +5,10 @@ class Student:
         self.creditHours = 0
         self.enrolled = enrolled
         self.classes = []
+
+    def updateGPA([1]):
+        newTotal = (newGrade * newHours) + (self.GPA * self.creditHours)
+        GPA = self.GPA * self.creditHours
+        newGPA = GPA
+       
+
